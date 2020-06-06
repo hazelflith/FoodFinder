@@ -11,10 +11,12 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Homepage from "./Pages/homepage";
 import About from "./Pages/about";
 
+const PORT = process.env.PORT || 80;
 function App() {
 
   return (
     <div className="App">
+      {PORT}
       <Router>
         <Route exact path="/" component={Homepage}></Route>
         <Route exact path="/About" component={About}></Route>
