@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Homepage from "./Pages/homepage";
 import About from "./Pages/about";
 function App() {
-
+  
   return (
     <div className="App">
       <Router>
